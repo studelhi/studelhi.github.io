@@ -1,0 +1,66 @@
+title: Student Tenants' Union Delhi
+logo:  # you can add own logo.
+description: A united student-led group formed to connect with student tenants across the NCT of Delhi.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Author Settings
+author:
+  name: Student Tenants' Union Delhi
+  image: '/assets/img/08.jpg'
+  job: "Student Tenants' Union Delhi"
+  bio: "A united student-led group formed to connect with student tenants across the NCT of Delhi. Our aim is to provide a safe space for students, living in rented accommodations like PGs, flats, or private student hostels, to voice their concerns regarding tenancy."
+  email: studenttenantsunion@gmail.com
+
+
+# Contact links
+contact:
+  - name: Twitter
+    link: https://twitter.com/tenants_union
+  - name: Facebook
+    link: https://facebook.com/STUDelhi/
+  - name: Instagram
+    link: https://instagram.com/studenttenantsuniondelhi/
+
+
+# Comment Section (Disqus)
+disqus-identifier: # add your shortname for Disqus Comment. For example mr-brown
+
+
+# Google Analytics
+google-analytics: # add your identifier. For example UA-99631805-1.
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+  - jekyll/tagging
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag-page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
