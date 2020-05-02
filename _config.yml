@@ -3,7 +3,7 @@ logo:  #later
 description: A united student-led group formed to connect with Student Tenants across the NCT of Delhi.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
+og:image: ""
 
 
 # Author Settings
