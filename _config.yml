@@ -2,7 +2,7 @@ title: Student Tenants' Union Delhi
 logo:  #later
 description: A united student-led group formed to connect with Student Tenants across the NCT of Delhi.
 baseurl: "https://studelhi.org" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://studelhi.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 
