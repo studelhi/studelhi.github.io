@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Landlords Keep Your Distance
+title:  Landlords 
 date:   2020-05-01 13:30:35 +0300
 image:  '/assets/img/post1.jpg'
 thumbnail: '/assets/img/post1.jpg'
